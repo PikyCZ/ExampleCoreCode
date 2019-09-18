@@ -1,0 +1,5 @@
+name: ExampleCoreCode
+main: cz.pikyxos.core.Core
+version: "1.0"
+api: ["1.0.8"]
+author: "PikyXoS"
