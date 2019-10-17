@@ -13,9 +13,9 @@ public class EventListener implements Listener {
         Player player = e.getPlayer();
         /*For example check for player if is on server first time*/
         if(player.playedBefore)
-            player.sendMessage("Welcome on ...  " + player.getName());
+            player.sendMessage("Welcome back " + player.getName());
         else
-            player.sendMessage("Welcome on ...");
+            player.sendMessage("Welcome on ..." + player.getName());
 
         e.setJoinMessage("");
     }
